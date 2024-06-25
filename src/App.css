@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: skyblue;
+  position: relative;
+  top: 40px;
 }
 
 .App-logo {
@@ -23,11 +26,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App input{
+  padding: 0px;
+  height: 35px;
+  width: 281px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.App button{
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  width: 69px;
+}
 
 .App-link {
   color: #61dafb;
 }
-
+.App #weather_details{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
